@@ -16,10 +16,11 @@ class Sqdist < Formula
   end
 
   test do
-    # Identical strings => zero distance on every metric.
-    assert_match "levenshtein          0", shell_output("#{bin}/sqdist abc abc")
+    # Assert against JSON output (stable keys) rather than human-column spacing.
+    # Identical strings => zero distance.
+    assert_match '"levenshtein":0', shell_output("#{bin}/sqdist -j abc abc")
     # Cyrillic homoglyph spoof is flagged confusable_only=true.
-    assert_match "confusable_only      true",
-                 shell_output("#{bin}/sqdist paypal pаypal")
+    assert_match '"confusable_only":true',
+                 shell_output("#{bin}/sqdist -j paypal pаypal")
   end
 end
