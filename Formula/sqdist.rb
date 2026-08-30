@@ -4,9 +4,9 @@
 class Sqdist < Formula
   desc "Fast string-distance CLI for typosquatting and homoglyph detection"
   homepage "https://github.com/ericfitz/sqdist"
-  url "https://github.com/ericfitz/sqdist/releases/download/v0.5.0/sqdist-v0.5.0-macos-universal.tar.gz"
-  version "0.5.0"
-  sha256 "cc242eb252d6d7d393e8c1760e22e27efe1639c70aa16608150542749b2e33c5"
+  url "https://github.com/ericfitz/sqdist/releases/download/v0.6.0/sqdist-v0.6.0-macos-universal.tar.gz"
+  version "0.6.0"
+  sha256 "eca06e64de4447f67a8bac21a63d35335402e79f22b050db06903fe39b3434f5"
   license any_of: ["MIT", "Apache-2.0"]
 
   # Prebuilt universal binary; no build dependencies. macOS only.
