@@ -4,8 +4,8 @@
 class Agentbus < Formula
   desc "Local message bus and shared memory for coding agents"
   homepage "https://github.com/ericfitz/agentbus"
-  url "https://github.com/ericfitz/agentbus/releases/download/v1.5.2/agentbus-v1.5.2-macos-universal.tar.gz"
-  sha256 "b21a947af7931e5de92cda2347fcf2a5d99abaa554f867a2a6a355a250c68d1c"
+  url "https://github.com/ericfitz/agentbus/releases/download/v1.6.0/agentbus-v1.6.0-macos-universal.tar.gz"
+  sha256 "a3ac190faa59d984bfb2f45f5c32d32b02a5ff44c58cd3266360b8ab020950ca"
   license "Apache-2.0"
 
   # Prebuilt universal binary; no build dependencies. macOS only.
