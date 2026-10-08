@@ -4,8 +4,8 @@
 class TmiMcp < Formula
   desc "MCP server for threat modeling against a TMI server"
   homepage "https://github.com/ericfitz/tmi-mcp"
-  url "https://github.com/ericfitz/tmi-mcp/releases/download/v1.0.1/tmi-mcp-v1.0.1-macos-universal.tar.gz"
-  sha256 "00e34910901aedcbd75bdb75511de0f54a8287f6d4a36038315a49481a1b0ee8"
+  url "https://github.com/ericfitz/tmi-mcp/releases/download/v1.0.2/tmi-mcp-v1.0.2-macos-universal.tar.gz"
+  sha256 "9fafebbad26601d7d2a3bde97cb18767867e384cbf8e80b0a5bd166072427363"
   license "Apache-2.0"
 
   # Prebuilt universal binary; no build dependencies. macOS only.
