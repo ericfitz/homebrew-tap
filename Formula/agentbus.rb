@@ -13,14 +13,14 @@ class Agentbus < Formula
   license "Apache-2.0"
 
   if OS.mac?
-    url "https://github.com/ericfitz/agentbus/releases/download/v1.14.1/agentbus-v1.14.1-macos-universal.tar.gz"
-    sha256 "c3cb33790a3a4de5c1dbc51fb54e3694f80b4e90afe91fcd51ed1524ce46163d"
+    url "https://github.com/ericfitz/agentbus/releases/download/v1.14.2/agentbus-v1.14.2-macos-universal.tar.gz"
+    sha256 "c24b512ad5fceecad3bd7d8b9e7c3b9d8eafcfaee3a5fc27faf0e14be7503522"
   elsif OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/ericfitz/agentbus/releases/download/v1.14.1/agentbus-v1.14.1-linux-amd64.tar.gz"
-    sha256 "cf9c73f1db00f829d1fc80332214da444ffabfa24d9d81ae45b781d7b4f2665a"
+    url "https://github.com/ericfitz/agentbus/releases/download/v1.14.2/agentbus-v1.14.2-linux-amd64.tar.gz"
+    sha256 "92ac641bcaa8b80403b285f80cc4ea8784eeb8afebe1325287fb9419fca10acb"
   elsif OS.linux? && Hardware::CPU.arm?
-    url "https://github.com/ericfitz/agentbus/releases/download/v1.14.1/agentbus-v1.14.1-linux-arm64.tar.gz"
-    sha256 "623f1ee7060bfb030ec9a93a57c0c3658f64fc44ce68881516362677cfce5e72"
+    url "https://github.com/ericfitz/agentbus/releases/download/v1.14.2/agentbus-v1.14.2-linux-arm64.tar.gz"
+    sha256 "85f5a008459c2bb01f8c022b3bfd6e37f66675ddb1cacdd2ec4e4e3ebd31fa85"
   end
 
   def install
