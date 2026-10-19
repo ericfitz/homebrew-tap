@@ -4,8 +4,8 @@
 class Brewsoak < Formula
   desc "Homebrew wrapper that soaks formula and cask updates before installing them"
   homepage "https://github.com/ericfitz/brewsoakr"
-  url "https://github.com/ericfitz/brewsoakr/releases/download/v1.5.1/brewsoak-v1.5.1-macos-universal.tar.gz"
-  sha256 "66c702d624cd854cb65f891ac040647a164d23a1947eb1584181dc9909d28f87"
+  url "https://github.com/ericfitz/brewsoakr/releases/download/v1.5.2/brewsoak-v1.5.2-macos-universal.tar.gz"
+  sha256 "2da12c0b329ffdf650a21bf11b4523d1fbcc82c1e5a1f60fff83482dee20a9e5"
   license "Apache-2.0"
 
   # Prebuilt universal binary; no build dependencies. macOS only.
